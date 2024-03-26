@@ -37,6 +37,40 @@
     > port 5353: Multicast DNS (mDNS) enables DNS-like operations within local networks without needing a traditional DNS server. It operates on UDP port 5353 and allows devices to discover each other and their services, commonly seen in various IoT devices.
     > port 1900: Microsoft for SSDP
 
+`traceroute -n -U -p 443 --sport=4000 drive.shadow.tech`:
+```bash
+traceroute to drive.shadow.tech (46.105.132.157), 30 hops max, 60 byte packets
+ 1  192.168.1.1  5.813 ms  174.144 ms  45.879 ms
+ 2  10.24.145.8  11.340 ms  13.012 ms  284.127 ms
+ 3  * * *
+ 4  91.183.242.132  13.027 ms  29.869 ms  407.397 ms
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  91.121.131.149  118.636 ms  19.464 ms  19.510 ms
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+```
 
 
 #### DNS
